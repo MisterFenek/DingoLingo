@@ -1,4 +1,6 @@
-BOT_TOKEN: str = ""
+import os
+
+BOT_TOKEN: os.environ['TOKEN']
 SPOTIFY_ID: str = ""
 SPOTIFY_SECRET: str = ""
 
